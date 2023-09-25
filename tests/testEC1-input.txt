@@ -1,0 +1,37 @@
+comment:Test of Cluster Assignment
+initialize:2:0:100:0:100
+comment:Initializing cluster assignment structure starting at ORD
+ca-initialize:ORD:Chicago:20:60
+ca-add-site:ATL:Atlanta:10:50
+ca-add-site:JFK:New York:90:39
+ca-add-site:SEA:Seattle:50:51
+ca-add-site:DFW:Dallas-Fort Worth:30:79
+ca-add-site:DCA:Washington:70:71
+ca-add-site:IAD:Dulles:31:40
+ca-add-center:PVD:Providence:90:20
+ca-add-center:BWI:Baltimore:80:80
+ca-add-center:LAX:Los Angeles:40:20
+ca-add-site:LAS:Las Vegas:10:20
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-delete-center:PVD
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-delete-center:LAX
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
+ca-delete-center:BWI
+ca-sites-size
+ca-list-kd
+ca-centers-size
+ca-list-centers
+ca-list-assignments
